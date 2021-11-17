@@ -12,10 +12,15 @@ spec:
     name: example-bundle
     description: This is an example of an Entando bundle
     dist-tags:
-      latest: v0.0.1
+      latest: v0.0.2
     versions:
+      - v0.0.2
       - v0.0.1
   tags:
+    - version: v0.0.2
+      shasum: 44254fc783fa6403dcc9f9135f859f6c09c94e68
+      integrity: 44254fc783fa6403dcc9f9135f859f6c09c94e68
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-of-joy2.git'
     - version: v0.0.1
       shasum: 22a4e9e58531bfe6f4438507f0bd4ab11315f966
       integrity: 22a4e9e58531bfe6f4438507f0bd4ab11315f966
