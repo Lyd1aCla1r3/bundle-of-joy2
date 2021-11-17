@@ -1,0 +1,23 @@
+---
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: example-bundle
+  namespace: entando
+  labels:
+    widget: 'true'
+    bundle-type: standard-bundle
+spec:
+  details:
+    name: example-bundle
+    description: This is an example of an Entando bundle
+    dist-tags:
+      latest: v0.0.1
+    versions:
+      - v0.0.1
+  tags:
+    - version: v0.0.1
+      shasum: 22a4e9e58531bfe6f4438507f0bd4ab11315f966
+      integrity: 22a4e9e58531bfe6f4438507f0bd4ab11315f966
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-of-joy2.git'
+
